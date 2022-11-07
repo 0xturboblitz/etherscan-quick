@@ -1,0 +1,16 @@
+{
+  "name": "Etherscan Quick",
+  "description": "Access etherscan pages quickly",
+  "omnibox": {
+    "keyword": "e"
+  },
+  "icons": {
+    "16": "e.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "version": "1.1.4",
+  "minimum_chrome_version": "9",
+  "manifest_version": 2
+}
