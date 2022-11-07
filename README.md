@@ -9,3 +9,8 @@ Highlight the address bar, press e, then press tab, paste in an address or a tra
 The extension will take you to the Etherscan page for the address or transaction.
 
 To go to a specific explorer, prepend a letter to the address or txhash. Ex : "g" for goerli or "o" for optimism
+
+
+## Install :
+
+chrome://extensions/ => load unpacked
