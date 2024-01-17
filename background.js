@@ -32,8 +32,8 @@ const config = {
   zksync: {
     base: "https://zkscan.io/",
   },
-  starknet: {
-    base: "https://starkscan.co/",
+  sepolia: {
+    base: "https://sepolia.etherscan.io/",
   },
   fuji: {
     base: "https://testnet.snowtrace.io/",
@@ -109,7 +109,7 @@ chrome.omnibox.onInputEntered.addListener(function (text) {
   } else if (text.charAt(0) === "z") {
     parseInput(config.zksync, sliceTestnetSelector(text))
   } else if (text.charAt(0) === "s") {
-    parseInput(config.starknet, sliceTestnetSelector(text))
+    parseInput(config.sepolia, sliceTestnetSelector(text))
   } else if (text.charAt(0) === "f") {
     parseInput(config.fuji, sliceTestnetSelector(text))
   } else if (text.charAt(0) === "m") {
